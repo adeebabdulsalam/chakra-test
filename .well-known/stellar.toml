@@ -1,0 +1,43 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+FEDERATION_SERVER="https://api.chakra-test.github.io/federation"
+AUTH_SERVER="https://api.chakra-test.github.io/auth"
+TRANSFER_SERVER="https://api.chakra-test.github.io"
+SIGNING_KEY="GCSLSJYSPXXFQ55DA6RTLLEKLBWCYZPAXCGA3EOKGPULHWLNZSWKE5UH
+"
+HORIZON_URL="https://horizon.domain.com"
+ACCOUNTS=[
+"GCVSS233MCVHCBEAZTA4LRMGCYVTLMKBPIIQ6HSIV5DZDPQO37LNSIU7
+",
+"GAHJIMJWORKIAJ3EELX2RV7OWRGPYKG2ZKDHA773FBSLWZXFSPRVWFY6"
+]
+VERSION="2.0.0"
+SQ02_EASTER_EGG = "Log into series 2 of Stellar Quest then visit quest.stellar.org/series2. Finally drag and drop your Stellar Quest series 2 badge PNG images onto the screen. Enjoy!"
+
+[DOCUMENTATION]
+ORG_NAME="Chakra"
+ORG_DBA="Chakra DBA"
+ORG_URL="https://chakra-test.github.io"
+ORG_LOGO="https://chakra-test.github.io/logo.png"
+ORG_DESCRIPTION="Description of issuer"
+ORG_PHYSICAL_ADDRESS="123 Sesame Street, New York, NY 12345, United States"
+ORG_PHYSICAL_ADDRESS_ATTESTATION="https://www.domain.com/address_attestation.jpg"
+ORG_PHONE_NUMBER="1 (123)-456-7890"
+ORG_PHONE_NUMBER_ATTESTATION="https://www.domain.com/phone_attestation.jpg"
+ORG_KEYBASE="accountname"
+ORG_TWITTER="INRChakra"
+ORG_GITHUB="adeebabdulsalam"
+ORG_OFFICIAL_EMAIL="support@domain.com"
+
+[[PRINCIPALS]]
+name="Jane Jedidiah Johnson"
+email="jane@domain.com"
+keybase="crypto_jane"
+twitter="crypto_jane"
+github="crypto_jane"
+id_photo_hash="be688838ca8686e5c90689bf2ab585cef1137c999b48c70b92f67a5c34dc15697b5d11c982ed6d71be1e1e7f7b4e0733884aa97c3f7a339a8ed03577cf74be09"
+verification_photo_hash="016ba8c4cfde65af99cb5fa8b8a37e2eb73f481b3ae34991666df2e04feb6c038666ebd1ec2b6f623967756033c702dde5f423f7d47ab6ed1827ff53783731f7"
+
+[[CURRENCIES]]
+code="INRC"
+issuer="GCVSS233MCVHCBEAZTA4LRMGCYVTLMKBPIIQ6HSIV5DZDPQO37LNSIU7"
+display_decimals=2
